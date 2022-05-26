@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <form action="{{url_for('register')}}" method="POST">
+        <input type="text" placeholder="Enter Username" name='username'>
+        <input type="password" placeholder="Enter Password" name='password'>
+        <input type="text" placeholder="Enter Valid Email Address" name='email'>
+        <input type="text" placeholder="Enter Mobile Number" name='phone'>
+        <input type="text" placeholder="Enter Your Aadhar Number" name='aadhar'>
+        <input type="submit" value="Register">
+        
+    </form>
+</body>
+</html>
